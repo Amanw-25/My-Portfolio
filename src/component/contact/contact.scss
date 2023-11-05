@@ -1,0 +1,131 @@
+@import "../../app.scss";
+.contact{
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+
+    @include mobile{
+      width: 100%;
+      padding: 10px;
+      flex-direction: column;
+        
+    }
+
+
+    .textContainer{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+
+        @include mobile{
+            text-align: center;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            margin-top: 70px;
+            
+        }
+        
+
+        h1{
+            font-size: 100px;
+            line-height: 88px;
+
+            @include mobile{
+                font-size: 30px;
+                margin-top: -40%;
+                padding: -90px;
+                
+            }
+        }
+
+
+        h2{
+
+            @include mobile{
+                font-size: 15px;
+                // margin-top: -10%;
+                
+                
+            }
+        }
+        
+
+        span{
+            font-weight: 300;
+
+
+            @include mobile{
+                font-size: 15px;
+                
+                
+                
+            }
+        }
+    }
+
+
+    .formContainer{
+        flex: 1;
+
+        
+
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:20px ;
+
+            @include mobile{
+                font-size: 30px;
+                margin-top: -30%;
+                padding: -10%;
+                
+            }
+
+            input,textarea{
+                padding: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                columns: white;
+                border-radius: 5px;
+                color: white;
+
+
+                @include mobile{
+                    padding:5px;
+                    margin: 5px;
+                    
+                }
+            }
+
+            button{
+                padding: 10px;
+                border: none;
+                background-color: orange;
+                cursor: pointer;
+                font-weight: 500;
+                width: 20%;
+                font-size: 15px;
+                margin-left: 40%;
+
+
+                @include mobile{
+                    padding: 3px;
+                    width: 50%;
+                    margin-left:27%;
+                    margin-top: -10%;
+                    height: 80%;
+                    
+                }
+                
+            }
+        }
+    }
+}
