@@ -19,7 +19,7 @@ const Navbar = () => {
                     Aman Wairagkar</motion.span>
                     <div className="social">
                         <button>
-                        <a href="https://drive.google.com/file/d/15yyUadpcnnt0OxaVrhKxDPiyvY0ns9YM/view?usp=drive_link">Resume</a>
+                        <a href="https://drive.google.com/file/d/169TcnIbWf2dkcYWQdvncSUiSW7FIk6zc/view?usp=sharing">Resume</a>
                         </button>
                         <a href="https://github.com/Amanw-25"><img src="./git.png" alt="" /></a>
                         <a href="https://instagram.com/amanw_25?igshid=MTI1YnpxM2xobzZ4MQ=="><img src="./instagram.png" alt="" /></a>

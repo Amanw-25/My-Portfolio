@@ -137,7 +137,7 @@ const Myself = () => {
 
     const downloadResume = () => {
         // Replace 'YOUR_GOOGLE_DRIVE_FILE_LINK' with the actual Google Drive file link
-        const googleDriveFileLink = "https://drive.google.com/file/d/15yyUadpcnnt0OxaVrhKxDPiyvY0ns9YM/view?usp=drive_link";
+        const googleDriveFileLink = "https://drive.google.com/file/d/169TcnIbWf2dkcYWQdvncSUiSW7FIk6zc/view?usp=sharing";
         
         // Open a new window or tab to the Google Drive file link
         window.open(googleDriveFileLink, "_blank");
@@ -169,7 +169,7 @@ const Myself = () => {
                 Software Engineer
             </motion.div>
             <div className="imageContainer">
-                <img className="profile" src="/profile.png"></img>
+                <img className="profile" src="/profile_Pic.png"></img>
             </div>
 
         </div>
