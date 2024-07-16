@@ -4,7 +4,7 @@ import Navbar from "./component/navbar/Navbar";
 import Parallax from "./component/parallax/Parallax"
 import Services from "./component/services/service";
 import Portfolio from "./component/portfolio/Portfolio";
-import Contact from "./component/contact/contact";
+import Contact from "./component/contact/Contact";
 import Cursor from "./component/cursor/Cursor";
 
 const App = () => {
