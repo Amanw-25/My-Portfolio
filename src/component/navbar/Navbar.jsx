@@ -21,7 +21,7 @@ const Navbar = () => {
                         <button>
                         <a href="https://drive.google.com/file/d/1-xgZwXf2j2IbsXYI87XqLz92AdB3x0KC/view?usp=sharing">Resume</a>
                         </button>
-                        <a href="https://github.com/Amanw-25"><img src="./git.png" alt="" /></a>
+                        {/* <a href="https://github.com/Amanw-25"><img src="./git.png" alt="" /></a> */}
 {/*                         <a href="https://instagram.com/amanw_25?igshid=MTI1YnpxM2xobzZ4MQ=="><img src="./instagram.png" alt="" /></a>
                         <a href="https://x.com/AWairagkar?t=uHTs6ddfH_EGJLKpfrvmGg&s=09"><img src="./twitter.png" alt="" /></a> */}
                         {/* <a href="#"><img src="./dribble.png" alt=""/></a> */}
